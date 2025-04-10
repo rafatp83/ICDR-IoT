@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.venv/
+env/
+venv/
+
+# Arduino (ESP32 / PlatformIO)
+*.bin
+*.elf
+*.hex
+.pio/
+.vscode/
+*.save
+*.dmp
+*.map
+*.elf
+
+# Node / Web (caso use npm)
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+
+# IDEs
+*.swp
+*.swo
+.DS_Store
+.idea/
+*.iml
+
+# Sistema
+Thumbs.db
+desktop.ini
